@@ -11,7 +11,7 @@ export const isLocal = __IS_LOCAL__;
 // vite env
 const appTitle = import.meta.env.VITE_APP_TITLE;
 if (typeof appTitle !== 'string' || appTitle === '') {
-    throw new Error('import.meta.env.VITE_APP_TITLE is undefined')
+    throw new Error('VITE_APP_TITLE is undefined')
 }
 
 export const title = appTitle;
