@@ -13,4 +13,7 @@ document.getElementById("app").innerHTML = `
 
   <dt>mode:</dt>
   <dd>${config.ENV}</dd>
+
+  <dt>title:</dt>
+  <dd>${config.TITLE}</dd>
 </dl>`;

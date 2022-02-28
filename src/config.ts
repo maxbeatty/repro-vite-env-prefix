@@ -1,4 +1,4 @@
-import { baseURL, environment, isLocal, isWorking } from "./config.env";
+import { baseURL, environment, isLocal, isWorking, title } from "./config.env";
 
 export default {
   get BASE(): string {
@@ -15,5 +15,9 @@ export default {
 
   get IS_WORKING(): boolean {
     return isWorking;
+  },
+
+  get TITLE(): string {
+    return title;
   }
 };
